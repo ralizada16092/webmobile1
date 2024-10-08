@@ -1,33 +1,84 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <title>My skills</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Skills</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400..700&family=Lora:wght@400..700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h2 {
+            font-family: 'Lora', serif;
+            color: #333;
+            text-align: center;
+        }
+
+        table {
+            margin: 20px auto;
+            border: #333;
+            width: 80%;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #ccc;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #ddd;
+        }
+
+        p {
+            text-align: center;
+            margin: 20px auto;
+            width: 70%;
+        }
+    </style>
 </head>
+
 <body>
-    <ul>
-        <li><a href="./index.html">Home</a></li>
-        <li><a href="./skills.html">Skills</a></li>
-        <li><a href="./education.html">Education&Experience</a></li>
-        <li><a href="">Contact me</a></li>
-    </ul>
+
     <h2>Skills</h2>
+
     <table>
         <thead>
-            <th>Skill</th>
-            <th>Proficiency</th>
+            <tr>
+                <th>Skill</th>
+                <th>Proficiency</th>
+            </tr>
         </thead>
-        <tr>
-            <td>Drawing</a></td>
-            <td>Moderate</td>
-        </tr>
-        <tr>
-            <td>Problem solving</td>
-            <td>Moderate</td>
-        </tr>
-        <tr>
-            <td>Learning&nbsp;&nbsp;&nbsp;a new language</td>
-            <td>Moderate</td>
-        </tr>
+        <tbody>
+            <tr>
+                <td>Drawing</td>
+                <td>Moderate</td>
+            </tr>
+            <tr>
+                <td>Problem Solving</td>
+                <td>Moderate</td>
+            </tr>
+            <tr>
+                <td>Learning a New Language</td>
+                <td>Moderate</td>
+            </tr>
+        </tbody>
     </table>
 
     <iframe src="" frameborder="0" name="my_skills"></iframe>
